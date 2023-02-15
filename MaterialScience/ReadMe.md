@@ -1,1 +1,31 @@
 # Data Science in Material Science
+
+
+```{python}
+import pandas as pd
+
+periodic_table = pd.read_csv("atomic_weight.csv", header=None)
+
+periodic_table.columns = ['elements', 'atomic_weight']
+
+example = pd.read_csv("at.csv", header=0)
+
+element = example.columns
+
+elemental_table = periodic_table[[x in element for x in periodic_table["elements"]]].reset_index()
+print(elemental_table)
+ordered_example = example[elemental_table['elements']]
+ordered_example_2 = pd.DataFrame()
+
+for i in range(len(element)):
+    weight = float(elemental_table['atomic_weight'][i])
+    name = elemental_table['elements'][i]
+    col_name = name + '_weight'
+    ordered_example_2[col_name] = ordered_example[name]*weight
+
+for j in range(len(ordered_example_2)):
+    a = sum(ordered_example_2.iloc[j])
+    ordered_example_2.iloc[j] = ordered_example_2.iloc[j]/a
+    
+ordered_example_2.to_csv('result.csv', mode="w+")
+```
