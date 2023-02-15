@@ -24,11 +24,11 @@ print(element)
 ```
 
 The calculation is quite simple. Let p be the percentage of one element, w be its atomic weight, and we are tring to get wp: its weight percentage.
+
 $$
-\begin
-wp_i = (w_i*p_i)/sum_k(w_k*p_k), for k  = 1, 2, ..., n
-\end
+wp_i = \frac{w_i p_i}{\sum\limits_{k=1}^n w_k p_k}, \text{ for } k = 1,2,\ldots,n
 $$
+
 Now we need to manipulate the combo element order so that the elements selected are in an order according to the periodic table (it is just better for later iterations). 
 All we need in the end are the two tables: 1. the periodic table of the needed elements; 2. the element percentage table.
 An important reminder is that you need to store some interval data such as the partial atomic weight values. After several experiments, we decided to store them in a new dataframe and thus the establishment of a new dataframe. 
