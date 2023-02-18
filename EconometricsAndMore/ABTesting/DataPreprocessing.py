@@ -1,33 +1,3 @@
-Skip to content
-Search or jump to…
-Pull requests
-Issues
-Codespaces
-Marketplace
-Explore
- 
-@DummyPuppy 
-DummyPuppy
-/
-AB-Testing-Project
-Private
-Cannot fork because you own this repository and are not a member of any organizations.
-Code
-Issues
-Pull requests
-Actions
-Projects
-Wiki
-Security
-Insights
-Settings
-AB-Testing-Project/dataPreprocessing.py /
-@DummyPuppy
-DummyPuppy added python file for data preprocessing
-Latest commit 320dae2 on Dec 13, 2022
- History
- 1 contributor
-107 lines (99 sloc)  4.13 KB
 
 import pandas as pd
 import numpy as mp
@@ -136,18 +106,3 @@ def drawDescriptiveData(dataset):
     plt.plot(dataset['correct_pre_percent'],dataset['correct_post_percent'],'o')
 if __name__ == '__main__':
     main()
-Footer
-© 2023 GitHub, Inc.
-Footer navigation
-Terms
-Privacy
-Security
-Status
-Docs
-Contact GitHub
-Pricing
-API
-Training
-Blog
-About
-AB-Testing-Project/dataPreprocessing.py at main · DummyPuppy/AB-Testing-Project 
