@@ -132,4 +132,5 @@ if __name__ == '__main__':
     main()
  ```
 
-## END
+## In the end
+For the data modeling part please go to: EconometricsAndMore/ABTesting/DataModeling.md.
