@@ -1,8 +1,7 @@
 ﻿# -*- coding = utf-8 -*-
-# @Time:2020/9/21 3:31 PM
-# @Author: Zheng Zeng
+# @Author: Chloe
 # @File: Weibo.py
-# @Goal:
+# @Goal: to scrape weibo posts related to a certain topic
 
 import requests
 import time
@@ -27,7 +26,7 @@ def weibo_single_crawl(url,path):
     header = {
         'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.125 Safari/537.36'}
     cookie = {
-        'Cookie': 'T_WM=31239011660; WEIBOCN_FROM=1110006030; XSRF-TOKEN=fe3242; SSOLoginState=1600693115; ALF=1603285115; SCF=AlP_mTLbuiTgrGeZvPlyLDDKKbVdedTrgGSSWHsxXnj3KAQSSOZX_ewhfhpizHQU8tODHPdkM0EXD4kk_7AFROk.; SUB=_2A25ybNMrDeRhGeFK41MX-C_Kwz2IHXVRrv1jrDV6PUJbktAKLWzgkW1NQvoovw6wWIPAoU16h7XRvBo9F42_6opO; SUBP=0033WrSXqPxfM725Ws9jqgMF55529P9D9W55niMkMFKo4LbYyUnvGXdK5JpX5KzhUgL.FoMX1h2c1h2c1h22dJLoIp7LxKML1KBLBKnLxKqL1hnLBoMNShnpSonpSonp; SUHB=0QS5MhRGGiya0F; MLOGIN=1; M_WEIBOCN_PARAMS=luicode%3D10000011%26lfid%3D100103type%253D1%2526q%253D%2523Netflix%25E6%258B%258D%25E5%2589%25A7%25E7%2589%2588%25E4%25B8%2589%25E4%25BD%2593%2523%26fid%3D100103type%253D1%2526q%253D%2523Netflix%25E6%258B%258D%25E5%2589%25A7%25E7%2589%2588%25E4%25B8%2589%25E4%25BD%2593%2523%26uicode%3D10000011'}
+        'Cookie': 'YOUR_COOKIE'}
     try:
         html = requests.get(url, headers=header, cookies=cookie)
         jsonfile = html.json()
