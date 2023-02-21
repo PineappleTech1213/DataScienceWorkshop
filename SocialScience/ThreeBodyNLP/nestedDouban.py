@@ -1,8 +1,5 @@
-﻿# -*- coding = utf-8 -*-
-# @Time:2020/9/24 2:31 PM
-# @Author: Zheng Zeng
-# @File: nestedDouban.py
-# @Goal:
+# to scrape Douban users' public information online
+#author: Chloe
 
 import requests
 import time
