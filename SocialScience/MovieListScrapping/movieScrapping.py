@@ -42,7 +42,7 @@ def main():
     # beijing = 'https://movie.douban.com/awards/bjiff/9/nominees'
 #url = url1+str(i*20)+url2
 def saveData(data,path):
-    data.to_csv(path,header=False,mode='w',index = False)
+    data.to_csv(path,header=True,mode='w',index = False)
 def acquireData1(url1,url2,year,festival):
     # header
     header = {'content-type': 'text/html; charset=utf-8',
@@ -59,6 +59,7 @@ def acquireData1(url1,url2,year,festival):
         html = requests.get(url, headers =header , cookies = cookie)
         soup = BeautifulSoup(html.content,'html.parser')
         title = soup.select('div.article>h1')
+        #discarded examples
         # names = soup.select('div.rst_info>h4>a')
         # directors = soup.select('div.rst_info>p.r_metas>a')
         awardnames = soup.select('div.levl2.channels>h3')
