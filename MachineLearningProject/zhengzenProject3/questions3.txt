@@ -1,0 +1,73 @@
+# Answer the following questions for Amazon assignment
+
+1. What data preparation steps did you apply? Did you experiment with different preparations when developing your topic model?
+
+For data preparation: 
+
+i) Read in the json gz file. When reading in the file, I decided to sample the data for the model because the entries are too large. I tried cluster sampling and simple random sampling;
+
+ii) Transform review text list into a string using ' ';
+
+iii) Identify each sentence using sentence tokenizer;
+
+iv) Tokenize each word in each sentence and reduce them to the original and simple form;
+
+v) Clean the data, remove stopwords and the most frequency 30 words;
+
+Vi) turn the text into dictionary and corpus for further analysis.
+
+I tried with word position selection, where I only selected the words that are categorized. However there are some words that we don't usually use as nouns remained in the final corpus. I deal with the problem by adding new stopwords to the list and remove them again.
+
+
+2. If you subdivided the data before topic modeling, describe the steps you took and your findings?
+
+the total data are estimated to be more than 20,000,000 entries, so I searched for ways to down sample them. I did not divide the data into different categories according to the product type, but it could help with topic modeling by separating reviews of different kinds where different categories can be used.
+
+A) Sample the data by selecting one entry every 1000. This method still proves to be too inefficient, since bundle handling of the data in the future is still very time-consuming.
+
+B) Sample the data by selecting one entry every 1234. Later, sample randomly from complete text data to get 2,000 entries. Even the second-time sampling is still very time-consuming, probably because of the process of word recognition when cleaning the corpus.
+
+C) Get a short list of review data (300 entries), clean them up while tokenizing. This is for now the fastest way to get a clean text.
+
+The last method takes less time and I end up using this method for modeling. If computing power permits, I would go with the first method and have one entry every 10000 entries bundle.
+
+3. Reflect on your topics based on the most predictive words for those topics: do you see the categories that certain topics represent? Inspect a few reviews in those topics: do the reviews align with yuor expectations about the meaning of the topic?
+
+Yes. For example, in this topic:
+
+Topic 3: 0.021*"nice" + 0.009*"recommend" + 0.009*"early" + 0.008*"much" + 0.008*"small" + 0.008*"photo" + 0.008*"up" + 0.008*"less" + 0.008*"think" + 0.008*"long"
+
+It is clear that it is a compliment that recommend this item, though some adjective words are not clearly in how they are used.
+
+Topic 11: 0.015*"think" + 0.014*"size" + 0.013*"coffee" + 0.012*"jesus" + 0.010*"keep" + 0.010*"album" + 0.009*"wallet" + 0.008*"real" + 0.008*"order" + 0.008*"new"
+
+This topic seems to be about critics on coffee cups, its price and appearance. But "album" seems like a intruder word and it should not even have its probability. This shows that the model is very cautious in excluding certain topics.
+
+Topic 0: 0.016*"find" + 0.014*"issue" + 0.014*"hard" + 0.012*"place" + 0.011*"nice" + 0.011*"really" + 0.010*"long" + 0.010*"anything" + 0.010*"take" + 0.009*"size"
+
+This topic seems to be complaining on the problems of the item. Though some complimentary words are associated with this review somehow. 
+
+4. If you tried multiple approaches to topic modeling, does coherence inform your evaluation of the different models?
+
+I tried running different models using different number of topics in the model. The cv coherence value tells me how coherent those topics can cover the whole corpus. For the following models:
+
+for model with 10 topics: coherence is 0.368372
+for model with 12 topics: coherence is 0.344176
+for model with 14 topics: coherence is 0.338678
+for model with 16 topics: coherence is 0.389190
+for model with 18 topics: coherence is 0.376529
+for model with 20 topics: coherence is 0.364895
+for model with 22 topics: coherence is 0.392500
+for model with 24 topics: coherence is 0.372498
+for model with 26 topics: coherence is 0.387960
+for model with 28 topics: coherence is 0.423443
+
+We can see that the model with 28 topics have the highest coherence. Models with less topics may not be able to cover all possible topics the review content has covered. Maybe the model will be improved with more number of topics.
+
+
+Coherence does inform us of the classification ability of the topic models. When the topic distribution gets more precise in shape, the text can get latent variables for specific topics with closer semantic meanings. I presume that for a large dataset, more topics means a more smooth distribution and thus the model's ability to assign topics is more precise. 
+
+At the same time, the coherence may be rising slowly and finally reaches a threshold, and that is when coherence cannot inform much of the difference in models. It may due to that more topics just complicates the topic distribution of each document that may contain criticism and compliments at the same time. For fewer topics, perhaps the document would have a smaller set of optional topics so as to be less confusing.
+
+
+
