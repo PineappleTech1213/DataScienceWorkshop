@@ -42,7 +42,8 @@ def main():
     # beijing = 'https://movie.douban.com/awards/bjiff/9/nominees'
 #url = url1+str(i*20)+url2
 def saveData(data,path):
-    data.to_csv(path,header=True,mode='w',index = False)
+    #if you want to store the header, change header to True
+    data.to_csv(path,header=False,mode='w',index = False)
 def acquireData1(url1,url2,year,festival):
     # header
     header = {'content-type': 'text/html; charset=utf-8',
