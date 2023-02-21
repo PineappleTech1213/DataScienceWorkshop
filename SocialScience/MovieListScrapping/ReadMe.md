@@ -30,7 +30,7 @@ def acquireData(url1,url2,year,festival,doc,drama,wcdoc,wcdrama):
               'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.80 Safari/537.36'}
     # cookie, go to your web browser, right click inspect, go to network, scroll down, you will see your request header and cookie.
     cookie = {
-        'Cookie': 'viewed="2567698"; bid=viXzBneGrF8; gr_user_id=0334e848-9bbf-4d73-8898-d4843912e813; __utmc=30149280; _vwo_uuid_v2=D01EB491254F592B484FB2A07969757CE|b12b4c74ae211f2fc1917e89765461ee; __gads=ID=90dd3cb3600fbce3:T=1600906474:S=ALNI_MbgIYMcj5ViQlPJtQIhc74doHZixg; ll="128332"; __utmz=30149280.1600946804.5.2.utmcsr=accounts.douban.com|utmccn=(referral)|utmcmd=referral|utmcct=/passport/login; __utmv=30149280.22348; __yadk_uid=5pTDDY5ooVxNqvQYQUmA7hwUbV686tvz; ap_v=0,6.0; __utma=30149280.1922991655.1600906474.1600995655.1603810552.9; __utmt=1; push_noty_num=0; push_doumail_num=0; dbcl2="223483866:0vAj5ECVXdk"; ck=apVC; _pk_ref.100001.8cb4=%5B%22%22%2C%22%22%2C1603810706%2C%22https%3A%2F%2Faccounts.douban.com%2F%22%5D; _pk_id.100001.8cb4=dcf57d72cc7a2e72.1600929321.6.1603810706.1600963200.; _pk_ses.100001.8cb4=*; __utmb=30149280.5.10.1603810552'
+        'Cookie': 'YOUR_COOKIE'
     }
     # url rebuilt
     url = url1 + str(festival) + url2
