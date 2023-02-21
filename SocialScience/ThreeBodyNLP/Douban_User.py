@@ -1,8 +1,5 @@
-﻿# -*- coding = utf-8 -*-
-# @Time:2020/9/24 11:34 PM
-# @Author: Zheng Zeng
-# @File: Douban_User.py
-# @Goal:
+#to remove duplicates in scrapped data
+#can also be used to join douban user data with the comments
 
 import pandas as pd
 import numpy as np
