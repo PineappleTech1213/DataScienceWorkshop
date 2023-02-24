@@ -67,6 +67,22 @@ The next data we need to extract is to count the current medications patients ar
 
 
 ```{python}
+ # count the medication based on smaller data input ( per patient id)    
+def countPatientMedication(patient_id, startdate, medications):
+    #count the number of medications the patient took before the encounter
+    #check if the stop time is NA
+    count = 0
+    for index, row in medications.iterrows():    
+        if row['PATIENT'] == patient_id:
+            if (row['STOP'] == 'NA' or row['STOP'] > startdate):
+                count += 1
+                print("gain more count")
+            else:
+                print("no count")
+    return count
+ 
+ 
+# the major function to perform counting
 def getCurrentMedsCount(encounters, medications):
     for index, row in encounters.iterrows():
         patient_id = row['PATIENT']
@@ -75,6 +91,7 @@ def getCurrentMedsCount(encounters, medications):
              countPatientMedication(patient_id,
              startdate, medications)
     print("finish counting current medications")
+    
 ```
 
 Now create a field for the count.
@@ -97,7 +114,9 @@ Now create a field for the count.
     #save current meds count
     od_encounter.to_csv('./datasets/od_encounter_med_count.csv')
 ```
+
 The next step is to find current opiod use. How many opiod prescriptions a patient have ? How a patients has readmitted since using those medications?
+
 ```{python}
 def checkActiveOpiod(drug_overdose, opiod_med):
     #check if the patient is using opiod at the time of drug overdose encounter
@@ -128,6 +147,7 @@ def find30Readmission(readmissions):
 def findFirstReadmissionDate(admissions):
     admissions['FIRST_READMISSION_DATE'] = admissions.groupby('PATIENT')['START'].transform('min')
     print("finish finding first readmission date")
+
 ```
 
 ```{python}
@@ -147,8 +167,10 @@ def findFirstReadmissionDate(admissions):
     checkActiveOpiod(od_encounter, opiod_med)
 ```
 The key in calculating re-admission indicators is to calculate if there is a later date than the patient's first admission date.
-If the patient only gets admitted once, then they does not have a readmission right?
-We use group by to sort out each patients' admissions and calculate their differences.
+
+If the patient only gets admitted once, then they does not have a readmission right? Then they also do not have a date difference.
+
+We use group by to sort out each patients' admissions and calculate their differences. We filter out those records of the first admissions.
 ```{python}
     # find readmission indicators and first readmission date
     # sort od encounter by patient and start date
@@ -173,12 +195,11 @@ We use group by to sort out each patients' admissions and calculate their differ
     'DEATH_AT_VISIT_IND','COUNT_CURRENT_MEDS','CURRENT_OPIOID_IND','FIRST_READMISSION_DATE',
     'READMISSION_30_DAY_IND',
     'READMISSION_90_DAY_IND']]
-    ## Part 3
-    # save to csv
-    result.to_csv('./datasets/od_encounter_data.csv', index=False)
-    print("saved to csv, finishing data processing.")
-    
+```
 
+It is also a good practice to write those temporary/ test codes so that you can re-use it as you need. If you need to check a condition, write that condition in a separate function so that you can also use this function in multiple scenarios.
+
+```{python}
 def containsAny(str, li):
     #check if the string contains any of the items in the list
     for item in li:
@@ -187,7 +208,7 @@ def containsAny(str, li):
     return False
 
 
-
+#a test function to test if our logic is doable.
 def processPartialData(number, encounters,medications):
     #process the first n number of encounters
     i = 0
@@ -197,21 +218,10 @@ def processPartialData(number, encounters,medications):
             i += 1
         else:
             break
-     
-def countPatientMedication(patient_id, startdate, medications):
-    #count the number of medications the patient took before the encounter
-    #check if the stop time is NA
-    count = 0
-    for index, row in medications.iterrows():    
-        if row['PATIENT'] == patient_id:
-            if (row['STOP'] == 'NA' or row['STOP'] > startdate):
-                count += 1
-                print("gain more count")
-            else:
-                print("no count")
-    return count
+```
+Lastly, run those codes in a main function. I did not wrap some data processing codes because i was lazy, but you can make them more logical by grouping certain lines of codes together and wrap them up in a function.
 
-
+```{python}
  def main():
     #read in patients.csv
     patients = pd.read_csv('./datasets/patients.csv')
@@ -224,6 +234,16 @@ def countPatientMedication(patient_id, startdate, medications):
     encounters['STOP'] = pd.to_datetime(encounters['STOP'])
     #check the info
     # print(encounters.info())
+    
+    #perform part1,2,3 function codes here
+    
+    ## Part 3
+    # save to csv
+    result.to_csv('./datasets/od_encounter_data.csv', index=False)
+    print("saved to csv, finishing data processing.")
+    
 if __name__ == '__main__':
     main()
 ```
+
+### END - ML part to be continued.
