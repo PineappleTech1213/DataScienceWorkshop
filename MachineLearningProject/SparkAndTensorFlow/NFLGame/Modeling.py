@@ -163,6 +163,7 @@ def main():
     train, test = games_model_df.randomSplit([0.8, 0.2], seed = 1125)
     print("Number of records for training purposes is: " + str(train.count()))
     print("Number of records for testing purposes is: " + str(test.count()))
+    createModel(train,test)
                 
 
 def handleCategoricalData(games_without_outliers):
