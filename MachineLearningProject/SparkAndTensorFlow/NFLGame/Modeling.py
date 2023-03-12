@@ -32,7 +32,7 @@ def read_data(tablename,sqlContext):
 
 #define sql functions
 def column_add(a,b):
-     return  a.__add__(b)
+     return  a.__add__(b) 
 #define find outliers' function
 def find_outliers(df):
     # Identifying the numerical columns in a spark dataframe
