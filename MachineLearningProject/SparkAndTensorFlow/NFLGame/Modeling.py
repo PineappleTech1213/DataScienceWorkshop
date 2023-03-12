@@ -19,7 +19,7 @@ from pyspark.ml.feature import VectorAssembler
 from pyspark.ml.regression import GBTRegressor
 
 #read the data from the databse
-def read_data():
+def read_data(tablename,sqlContext):
     play_df = sqlContext.read.format("jdbc")\
     .option("url", "jdbc:postgresql://localhost:5432/postgres")\
     .option("dbtable", tablename)\
