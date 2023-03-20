@@ -1,9 +1,7 @@
 /**
- * author: Zheng Zeng
- * email: zhengzen@andrew.cmu.edu
  * This is the model that handles activities of an application
  */
-package cmu.edu.zhengzen.getemoji;
+package getemoji;
 
 import android.app.Activity;
 import android.graphics.Bitmap;
