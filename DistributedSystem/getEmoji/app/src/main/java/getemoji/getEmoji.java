@@ -1,9 +1,7 @@
 /**
- * author: Zheng Zeng
- * email: zhengzen@andrew.cmu.edu
  * This is the model that connects to a web service and pass the input from/to the web service
  */
-package cmu.edu.zhengzen.getemoji;
+package getemoji;
 
 import android.app.Activity;
 import android.graphics.Bitmap;
