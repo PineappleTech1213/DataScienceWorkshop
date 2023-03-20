@@ -1,4 +1,4 @@
-package cmu.edu.zhengzen.getemoji;
+package getemoji;
 
 import android.content.Context;
 
