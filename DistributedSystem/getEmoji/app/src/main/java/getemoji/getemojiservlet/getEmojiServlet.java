@@ -1,8 +1,8 @@
 /**
- * author: zhengzen email: zhengzen@andrew.cmu.edu This is the main web service that get a string
+ * this is the main web service that get a string
  * from the user and return a json file containing the emoji image url
  */
-package andrew.cmu.edu.zhengzen.emoji.getemojiservlet;
+package emoji.getemojiservlet;
 
 import jakarta.servlet.RequestDispatcher;
 import jakarta.servlet.ServletException;
