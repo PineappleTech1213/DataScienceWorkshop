@@ -1,4 +1,4 @@
-package cmu.edu.zhengzen.getemoji;
+package getemoji;
 
 import org.junit.Test;
 
