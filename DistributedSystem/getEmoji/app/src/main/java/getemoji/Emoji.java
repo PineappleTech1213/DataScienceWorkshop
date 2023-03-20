@@ -1,8 +1,6 @@
-package cmu.edu.zhengzen.getemoji;
+package getemoji;
 
 /**
- * Email: zhengzen@andrew.cmu.edu
- * Author: Zheng Zeng
  * This is the class that store information about an emoji that needs to be sent to the client
  * no additional info rather than the image url needs to be sent.
  **/
