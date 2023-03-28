@@ -1,5 +1,5 @@
 # An ML Project using Spark and TensorFlow in Python
-## Project goal: build a predictive model of NFL game results based on data from players' information, past games and plays results.
+## Project goal: build ETL pipeline of data from players and plays with Spark.
 
 
 ### 1 Spark Initiation
