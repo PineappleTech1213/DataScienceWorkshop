@@ -30,13 +30,13 @@ And we need to estimate n1  and  n2. Let n = n1=n2, and X and Y share the same s
 
 Under the null hypothesis, to reject the null hypothesis, we have the following equation
 
- T <=0 -> P(T <=0)  <= t(1-power)/2.
+P(T >=0) >power -> P(T <=0)  <= ( 1-power)/2.
 
 Since for this trial, we need to maintain a two-sided Type I error of 5% and a power of at least 90%, we would have this equation
 
- P(T <=0)  <= t0.05 ->(0.08-0.2)/s2/n  <= -1.66.
+ P(T <=0)  <=0.05 ->(X-Y-0.2)/s2/n  <= -1.66.
 
-Let’s substitute T with the sample mean value from the previous study and we have
+Let’s substitute X with the sample mean value from the previous study and we have
 
 n >= (1.66/(0.2-0.08) *0.3 * 2)2   = 34.445 ≈ 35.
 
