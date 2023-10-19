@@ -1,6 +1,6 @@
 # Welcome!
 
-Hi there! Welcome to my Data Science Workshop. I try to complete my work portfolio as soon as possible... In the meanwhile, feel free to contact me with your project related to data engineer and data science problems with Python, R and Java.
+Hi there! Welcome to my Data Science Workshop. I try to complete my work portfolio as soon as possible... In the meanwhile, feel free to contact me with your project related to data engineer and data science problems with Python, SQL, R and Java.
 
 ## Also I am actively looking for a job too...
 
