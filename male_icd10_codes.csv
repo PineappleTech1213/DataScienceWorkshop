@@ -1,0 +1,530 @@
+Code,Definition
+A18.14,Tuberculosis of prostate
+A18.15,Tuberculosis of other male genital organs
+A54.22,Gonococcal prostatitis
+A54.23,Gonococcal infection of other male genital organs
+A59.02,Trichomonal prostatitis
+A60.01,Herpesviral infection of penis
+A60.02,Herpesviral infection of other male genital organs
+B26.0,Mumps orchitis
+B37.42,Candidal balanitis
+B38.81,Prostatic coccidioidomycosis
+C50.021,"Malignant neoplasm of nipple and areola, right male breast"
+C50.022,"Malignant neoplasm of nipple and areola, left male breast"
+C50.029,"Malignant neoplasm of nipple and areola, unspecified male breast"
+C50.121,Malignant neoplasm of central portion of right male breast
+C50.122,Malignant neoplasm of central portion of left male breast
+C50.129,Malignant neoplasm of central portion of unspecified male breast
+C50.221,Malignant neoplasm of upper-inner quadrant of right male breast
+C50.222,Malignant neoplasm of upper-inner quadrant of left male breast
+C50.229,Malignant neoplasm of upper-inner quadrant of unspecified male breast
+C50.321,Malignant neoplasm of lower-inner quadrant of right male breast
+C50.322,Malignant neoplasm of lower-inner quadrant of left male breast
+C50.329,Malignant neoplasm of lower-inner quadrant of unspecified male breast
+C50.421,Malignant neoplasm of upper-outer quadrant of right male breast
+C50.422,Malignant neoplasm of upper-outer quadrant of left male breast
+C50.429,Malignant neoplasm of upper-outer quadrant of unspecified male breast
+C50.521,Malignant neoplasm of lower-outer quadrant of right male breast
+C50.522,Malignant neoplasm of lower-outer quadrant of left male breast
+C50.529,Malignant neoplasm of lower-outer quadrant of unspecified male breast
+C50.621,Malignant neoplasm of axillary tail of right male breast
+C50.622,Malignant neoplasm of axillary tail of left male breast
+C50.629,Malignant neoplasm of axillary tail of unspecified male breast
+C50.821,Malignant neoplasm of overlapping sites of right male breast
+C50.822,Malignant neoplasm of overlapping sites of left male breast
+C50.829,Malignant neoplasm of overlapping sites of unspecified male breast
+C50.921,Malignant neoplasm of unspecified site of right male breast
+C50.922,Malignant neoplasm of unspecified site of left male breast
+C50.929,Malignant neoplasm of unspecified site of unspecified male breast
+C60.0,Malignant neoplasm of prepuce
+C60.1,Malignant neoplasm of glans penis
+C60.2,Malignant neoplasm of body of penis
+C60.8,Malignant neoplasm of overlapping sites of penis
+C60.9,"Malignant neoplasm of penis, unspecified"
+C61,Malignant neoplasm of prostate
+C62.00,Malignant neoplasm of unspecified undescended testis
+C62.01,Malignant neoplasm of undescended right testis
+C62.02,Malignant neoplasm of undescended left testis
+C62.10,Malignant neoplasm of unspecified descended testis
+C62.11,Malignant neoplasm of descended right testis
+C62.12,Malignant neoplasm of descended left testis
+C62.90,"Malignant neoplasm of unspecified testis, unspecified whether descended or undescended"
+C62.91,"Malignant neoplasm of right testis, unspecified whether descended or undescended"
+C62.92,"Malignant neoplasm of left testis, unspecified whether descended or undescended"
+C63.00,Malignant neoplasm of unspecified epididymis
+C63.01,Malignant neoplasm of right epididymis
+C63.02,Malignant neoplasm of left epididymis
+C63.10,Malignant neoplasm of unspecified spermatic cord
+C63.11,Malignant neoplasm of right spermatic cord
+C63.12,Malignant neoplasm of left spermatic cord
+C63.2,Malignant neoplasm of scrotum
+C63.7,Malignant neoplasm of other specified male genital organs
+C63.8,Malignant neoplasm of overlapping sites of male genital organs
+C63.9,"Malignant neoplasm of male genital organ, unspecified"
+D07.4,Carcinoma in situ of penis
+D07.5,Carcinoma in situ of prostate
+D07.60,Carcinoma in situ of unspecified male genital organs
+D07.61,Carcinoma in situ of scrotum
+D07.69,Carcinoma in situ of other male genital organs
+D17.6,Benign lipomatous neoplasm of spermatic cord
+D29.0,Benign neoplasm of penis
+D29.1,Benign neoplasm of prostate
+D29.20,Benign neoplasm of unspecified testis
+D29.21,Benign neoplasm of right testis
+D29.22,Benign neoplasm of left testis
+D29.30,Benign neoplasm of unspecified epididymis
+D29.31,Benign neoplasm of right epididymis
+D29.32,Benign neoplasm of left epididymis
+D29.4,Benign neoplasm of scrotum
+D29.8,Benign neoplasm of other specified male genital organs
+D29.9,"Benign neoplasm of male genital organ, unspecified"
+D40.0,Neoplasm of uncertain behavior of prostate
+D40.10,Neoplasm of uncertain behavior of unspecified testis
+D40.11,Neoplasm of uncertain behavior of right testis
+D40.12,Neoplasm of uncertain behavior of left testis
+D40.8,Neoplasm of uncertain behavior of other specified male genital organs
+D40.9,"Neoplasm of uncertain behavior of male genital organ, unspecified"
+E29.0,Testicular hyperfunction
+E29.1,Testicular hypofunction
+E29.8,Other testicular dysfunction
+E29.9,"Testicular dysfunction, unspecified"
+E89.5,Postprocedural testicular hypofunction
+F52.21,Male erectile disorder
+F52.32,Male orgasmic disorder
+F52.4,Premature ejaculation
+I86.1,Scrotal varices
+L29.1,Pruritus scroti
+N35.010,"Post-traumatic urethral stricture, male, meatal"
+N35.011,Post-traumatic bulbous urethral stricture
+N35.012,Post-traumatic membranous urethral stricture
+N35.013,Post-traumatic anterior urethral stricture
+N35.014,"Post-traumatic urethral stricture, male, unspecified"
+N35.016,"Post-traumatic urethral stricture, male, overlapping sites"
+N35.111,"Postinfective urethral stricture, not elsewhere classified, male, meatal"
+N35.112,"Postinfective bulbous urethral stricture, not elsewhere classified, male"
+N35.113,"Postinfective membranous urethral stricture, not elsewhere classified, male"
+N35.114,"Postinfective anterior urethral stricture, not elsewhere classified, male"
+N35.116,"Postinfective urethral stricture, not elsewhere classified, male, overlapping sites"
+N35.119,"Postinfective urethral stricture, not elsewhere classified, male, unspecified"
+N35.811,"Other urethral stricture, male, meatal"
+N35.812,"Other bulbous urethral stricture, male"
+N35.813,"Other membranous urethral stricture, male"
+N35.814,"Other anterior urethral stricture, male"
+N35.816,"Other urethral stricture, male, overlapping sites"
+N35.819,"Other urethral stricture, male, unspecified site"
+N35.911,"Unspecified urethral stricture, male, meatal"
+N35.912,"Unspecified bulbous urethral stricture, male"
+N35.913,"Unspecified membranous urethral stricture, male"
+N35.914,"Unspecified anterior urethral stricture, male"
+N35.916,"Unspecified urethral stricture, male, overlapping sites"
+N35.919,"Unspecified urethral stricture, male, unspecified site"
+N40.0,Benign prostatic hyperplasia without lower urinary tract symptoms
+N40.1,Benign prostatic hyperplasia with lower urinary tract symptoms
+N40.2,Nodular prostate without lower urinary tract symptoms
+N40.3,Nodular prostate with lower urinary tract symptoms
+N41.0,Acute prostatitis
+N41.1,Chronic prostatitis
+N41.2,Abscess of prostate
+N41.3,Prostatocystitis
+N41.4,Granulomatous prostatitis
+N41.8,Other inflammatory diseases of prostate
+N41.9,"Inflammatory disease of prostate, unspecified"
+N42.0,Calculus of prostate
+N42.1,Congestion and hemorrhage of prostate
+N42.30,Unspecified dysplasia of prostate
+N42.31,Prostatic intraepithelial neoplasia
+N42.32,Atypical small acinar proliferation of prostate
+N42.39,Other dysplasia of prostate
+N42.81,Prostatodynia syndrome
+N42.82,Prostatosis syndrome
+N42.83,Cyst of prostate
+N42.89,Other specified disorders of prostate
+N42.9,"Disorder of prostate, unspecified"
+N43.0,Encysted hydrocele
+N43.1,Infected hydrocele
+N43.2,Other hydrocele
+N43.3,"Hydrocele, unspecified"
+N43.40,"Spermatocele of epididymis, unspecified"
+N43.41,"Spermatocele of epididymis, single"
+N43.42,"Spermatocele of epididymis, multiple"
+N44.00,"Torsion of testis, unspecified"
+N44.01,Extravaginal torsion of spermatic cord
+N44.02,Intravaginal torsion of spermatic cord
+N44.03,Torsion of appendix testis
+N44.04,Torsion of appendix epididymis
+N44.1,Cyst of tunica albuginea testis
+N44.2,Benign cyst of testis
+N44.8,Other noninflammatory disorders of the testis
+N45.1,Epididymitis
+N45.2,Orchitis
+N45.3,Epididymo-orchitis
+N45.4,Abscess of epididymis or testis
+N46.01,Organic azoospermia
+N46.021,Azoospermia due to drug therapy
+N46.022,Azoospermia due to infection
+N46.023,Azoospermia due to obstruction of efferent ducts
+N46.024,Azoospermia due to radiation
+N46.025,Azoospermia due to systemic disease
+N46.029,Azoospermia due to other extratesticular causes
+N46.11,Organic oligospermia
+N46.121,Oligospermia due to drug therapy
+N46.122,Oligospermia due to infection
+N46.123,Oligospermia due to obstruction of efferent ducts
+N46.124,Oligospermia due to radiation
+N46.125,Oligospermia due to systemic disease
+N46.129,Oligospermia due to other extratesticular causes
+N46.8,Other male infertility
+N46.9,"Male infertility, unspecified"
+N47.0,"Adherent prepuce, newborn"
+N47.1,Phimosis
+N47.2,Paraphimosis
+N47.3,Deficient foreskin
+N47.4,Benign cyst of prepuce
+N47.5,Adhesions of prepuce and glans penis
+N47.6,Balanoposthitis
+N47.7,Other inflammatory diseases of prepuce
+N47.8,Other disorders of prepuce
+N48.0,Leukoplakia of penis
+N48.1,Balanitis
+N48.21,Abscess of corpus cavernosum and penis
+N48.22,Cellulitis of corpus cavernosum and penis
+N48.29,Other inflammatory disorders of penis
+N48.30,"Priapism, unspecified"
+N48.31,Priapism due to trauma
+N48.32,Priapism due to disease classified elsewhere
+N48.33,"Priapism, drug-induced"
+N48.39,Other priapism
+N48.5,Ulcer of penis
+N48.6,Induration penis plastica
+N48.81,Thrombosis of superficial vein of penis
+N48.82,Acquired torsion of penis
+N48.83,Acquired buried penis
+N48.89,Other specified disorders of penis
+N48.9,"Disorder of penis, unspecified"
+N49.0,Inflammatory disorders of seminal vesicle
+N49.1,"Inflammatory disorders of spermatic cord, tunica vaginalis and vas deferens"
+N49.2,Inflammatory disorders of scrotum
+N49.3,Fournier gangrene
+N49.8,Inflammatory disorders of other specified male genital organs
+N49.9,Inflammatory disorder of unspecified male genital organ
+N50.0,Atrophy of testis
+N50.1,Vascular disorders of male genital organs
+N50.3,Cyst of epididymis
+N50.811,Right testicular pain
+N50.812,Left testicular pain
+N50.819,"Testicular pain, unspecified"
+N50.82,Scrotal pain
+N50.89,Other specified disorders of the male genital organs
+N50.9,"Disorder of male genital organs, unspecified"
+N51,Disorders of male genital organs in diseases classified elsewhere
+N52.01,Erectile dysfunction due to arterial insufficiency
+N52.02,Corporo-venous occlusive erectile dysfunction
+N52.03,Combined arterial insufficiency and corporo-venous occlusive erectile dysfunction
+N52.1,Erectile dysfunction due to diseases classified elsewhere
+N52.2,Drug-induced erectile dysfunction
+N52.31,Erectile dysfunction following radical prostatectomy
+N52.32,Erectile dysfunction following radical cystectomy
+N52.33,Erectile dysfunction following urethral surgery
+N52.34,Erectile dysfunction following simple prostatectomy
+N52.35,Erectile dysfunction following radiation therapy
+N52.36,Erectile dysfunction following interstitial seed therapy
+N52.37,Erectile dysfunction following prostate ablative therapy
+N52.39,Other and unspecified postprocedural erectile dysfunction
+N52.8,Other male erectile dysfunction
+N52.9,"Male erectile dysfunction, unspecified"
+N53.11,Retarded ejaculation
+N53.12,Painful ejaculation
+N53.13,Anejaculatory orgasm
+N53.14,Retrograde ejaculation
+N53.19,Other ejaculatory dysfunction
+N53.8,Other male sexual dysfunction
+N53.9,Unspecified male sexual dysfunction
+N99.110,"Postprocedural urethral stricture, male, meatal"
+N99.111,"Postprocedural bulbous urethral stricture, male"
+N99.112,"Postprocedural membranous urethral stricture, male"
+N99.113,"Postprocedural anterior bulbous urethral stricture, male"
+N99.114,"Postprocedural urethral stricture, male, unspecified"
+N99.115,Postprocedural fossa navicularis urethral stricture
+N99.116,"Postprocedural urethral stricture, male, overlapping sites"
+P83.5,Congenital hydrocele
+Q53.00,"Ectopic testis, unspecified"
+Q53.01,"Ectopic testis, unilateral"
+Q53.02,"Ectopic testes, bilateral"
+Q53.10,"Unspecified undescended testicle, unilateral"
+Q53.111,Unilateral intraabdominal testis
+Q53.112,Unilateral inguinal testis
+Q53.12,"Ectopic perineal testis, unilateral"
+Q53.13,Unilateral high scrotal testis
+Q53.20,"Undescended testicle, unspecified, bilateral"
+Q53.211,Bilateral intraabdominal testes
+Q53.212,Bilateral inguinal testes
+Q53.22,"Ectopic perineal testis, bilateral"
+Q53.23,Bilateral high scrotal testes
+Q53.9,"Undescended testicle, unspecified"
+Q54.0,"Hypospadias, balanic"
+Q54.1,"Hypospadias, penile"
+Q54.2,"Hypospadias, penoscrotal"
+Q54.3,"Hypospadias, perineal"
+Q54.4,Congenital chordee
+Q54.8,Other hypospadias
+Q54.9,"Hypospadias, unspecified"
+Q55.0,Absence and aplasia of testis
+Q55.1,Hypoplasia of testis and scrotum
+Q55.20,Unspecified congenital malformations of testis and scrotum
+Q55.21,Polyorchism
+Q55.22,Retractile testis
+Q55.23,Scrotal transposition
+Q55.29,Other congenital malformations of testis and scrotum
+Q55.3,Atresia of vas deferens
+Q55.4,"Other congenital malformations of vas deferens, epididymis, seminal vesicles and prostate"
+Q55.5,Congenital absence and aplasia of penis
+Q55.61,Curvature of penis (lateral)
+Q55.62,Hypoplasia of penis
+Q55.63,Congenital torsion of penis
+Q55.64,Hidden penis
+Q55.69,Other congenital malformation of penis
+Q55.7,Congenital vasocutaneous fistula
+Q55.8,Other specified congenital malformations of male genital organs
+Q55.9,"Congenital malformation of male genital organ, unspecified"
+Q56.1,"Male pseudohermaphroditism, not elsewhere classified"
+Q98.0,"Klinefelter syndrome karyotype 47, XXY"
+Q98.1,"Klinefelter syndrome, male with more than two X chromosomes"
+Q98.3,"Other male with 46, XX karyotype"
+Q98.4,"Klinefelter syndrome, unspecified"
+Q98.6,Male with structurally abnormal sex chromosome
+Q98.7,Male with sex chromosome mosaicism
+Q98.8,"Other specified sex chromosome abnormalities, male phenotype"
+Q98.9,"Sex chromosome abnormality, male phenotype, unspecified"
+R36.1,Hematospermia
+R39.83,Unilateral non-palpable testicle
+R39.84,Bilateral non-palpable testicles
+R86.0,Abnormal level of enzymes in specimens from male genital organs
+R86.1,Abnormal level of hormones in specimens from male genital organs
+R86.2,"Abnormal level of other drugs, medicaments and biological substances in specimens from male genital organs"
+R86.3,Abnormal level of substances chiefly nonmedicinal as to source in specimens from male genital organs
+R86.4,Abnormal immunological findings in specimens from male genital organs
+R86.5,Abnormal microbiological findings in specimens from male genital organs
+R86.6,Abnormal cytological findings in specimens from male genital organs
+R86.7,Abnormal histological findings in specimens from male genital organs
+R86.8,Other abnormal findings in specimens from male genital organs
+R86.9,Unspecified abnormal finding in specimens from male genital organs
+R93.811,Abnormal radiologic findings on diagnostic imaging of right testicle
+R93.812,Abnormal radiologic findings on diagnostic imaging of left testicle
+R93.813,"Abnormal radiologic findings on diagnostic imaging of testicles, bilateral"
+R93.819,Abnormal radiologic findings on diagnostic imaging of unspecified testicle
+R97.20,Elevated prostate specific antigen [PSA]
+R97.21,Rising PSA following treatment for malignant neoplasm of prostate
+S30.201A,"Contusion of unspecified external genital organ, male, initial encounter"
+S30.201D,"Contusion of unspecified external genital organ, male, subsequent encounter"
+S30.201S,"Contusion of unspecified external genital organ, male, sequela"
+S30.21XA,"Contusion of penis, initial encounter"
+S30.21XD,"Contusion of penis, subsequent encounter"
+S30.21XS,"Contusion of penis, sequela"
+S30.22XA,"Contusion of scrotum and testes, initial encounter"
+S30.22XD,"Contusion of scrotum and testes, subsequent encounter"
+S30.22XS,"Contusion of scrotum and testes, sequela"
+S30.812A,"Abrasion of penis, initial encounter"
+S30.812D,"Abrasion of penis, subsequent encounter"
+S30.812S,"Abrasion of penis, sequela"
+S30.813A,"Abrasion of scrotum and testes, initial encounter"
+S30.813D,"Abrasion of scrotum and testes, subsequent encounter"
+S30.813S,"Abrasion of scrotum and testes, sequela"
+S30.815A,"Abrasion of unspecified external genital organs, male, initial encounter"
+S30.815D,"Abrasion of unspecified external genital organs, male, subsequent encounter"
+S30.815S,"Abrasion of unspecified external genital organs, male, sequela"
+S30.822A,"Blister (nonthermal) of penis, initial encounter"
+S30.822D,"Blister (nonthermal) of penis, subsequent encounter"
+S30.822S,"Blister (nonthermal) of penis, sequela"
+S30.823A,"Blister (nonthermal) of scrotum and testes, initial encounter"
+S30.823D,"Blister (nonthermal) of scrotum and testes, subsequent encounter"
+S30.823S,"Blister (nonthermal) of scrotum and testes, sequela"
+S30.825A,"Blister (nonthermal) of unspecified external genital organs, male, initial encounter"
+S30.825D,"Blister (nonthermal) of unspecified external genital organs, male, subsequent encounter"
+S30.825S,"Blister (nonthermal) of unspecified external genital organs, male, sequela"
+S30.842A,"External constriction of penis, initial encounter"
+S30.842D,"External constriction of penis, subsequent encounter"
+S30.842S,"External constriction of penis, sequela"
+S30.843A,"External constriction of scrotum and testes, initial encounter"
+S30.843D,"External constriction of scrotum and testes, subsequent encounter"
+S30.843S,"External constriction of scrotum and testes, sequela"
+S30.845A,"External constriction of unspecified external genital organs, male, initial encounter"
+S30.845D,"External constriction of unspecified external genital organs, male, subsequent encounter"
+S30.845S,"External constriction of unspecified external genital organs, male, sequela"
+S30.852A,"Superficial foreign body of penis, initial encounter"
+S30.852D,"Superficial foreign body of penis, subsequent encounter"
+S30.852S,"Superficial foreign body of penis, sequela"
+S30.853A,"Superficial foreign body of scrotum and testes, initial encounter"
+S30.853D,"Superficial foreign body of scrotum and testes, subsequent encounter"
+S30.853S,"Superficial foreign body of scrotum and testes, sequela"
+S30.855A,"Superficial foreign body of unspecified external genital organs, male, initial encounter"
+S30.855D,"Superficial foreign body of unspecified external genital organs, male, subsequent encounter"
+S30.855S,"Superficial foreign body of unspecified external genital organs, male, sequela"
+S30.862A,"Insect bite (nonvenomous) of penis, initial encounter"
+S30.862D,"Insect bite (nonvenomous) of penis, subsequent encounter"
+S30.862S,"Insect bite (nonvenomous) of penis, sequela"
+S30.863A,"Insect bite (nonvenomous) of scrotum and testes, initial encounter"
+S30.863D,"Insect bite (nonvenomous) of scrotum and testes, subsequent encounter"
+S30.863S,"Insect bite (nonvenomous) of scrotum and testes, sequela"
+S30.865A,"Insect bite (nonvenomous) of unspecified external genital organs, male, initial encounter"
+S30.865D,"Insect bite (nonvenomous) of unspecified external genital organs, male, subsequent encounter"
+S30.865S,"Insect bite (nonvenomous) of unspecified external genital organs, male, sequela"
+S30.872A,"Other superficial bite of penis, initial encounter"
+S30.872D,"Other superficial bite of penis, subsequent encounter"
+S30.872S,"Other superficial bite of penis, sequela"
+S30.873A,"Other superficial bite of scrotum and testes, initial encounter"
+S30.873D,"Other superficial bite of scrotum and testes, subsequent encounter"
+S30.873S,"Other superficial bite of scrotum and testes, sequela"
+S30.875A,"Other superficial bite of unspecified external genital organs, male, initial encounter"
+S30.875D,"Other superficial bite of unspecified external genital organs, male, subsequent encounter"
+S30.875S,"Other superficial bite of unspecified external genital organs, male, sequela"
+S30.93XA,"Unspecified superficial injury of penis, initial encounter"
+S30.93XD,"Unspecified superficial injury of penis, subsequent encounter"
+S30.93XS,"Unspecified superficial injury of penis, sequela"
+S30.94XA,"Unspecified superficial injury of scrotum and testes, initial encounter"
+S30.94XD,"Unspecified superficial injury of scrotum and testes, subsequent encounter"
+S30.94XS,"Unspecified superficial injury of scrotum and testes, sequela"
+S30.96XA,"Unspecified superficial injury of unspecified external genital organs, male, initial encounter"
+S30.96XD,"Unspecified superficial injury of unspecified external genital organs, male, subsequent encounter"
+S30.96XS,"Unspecified superficial injury of unspecified external genital organs, male, sequela"
+S31.20XA,"Unspecified open wound of penis, initial encounter"
+S31.20XD,"Unspecified open wound of penis, subsequent encounter"
+S31.20XS,"Unspecified open wound of penis, sequela"
+S31.21XA,"Laceration without foreign body of penis, initial encounter"
+S31.21XD,"Laceration without foreign body of penis, subsequent encounter"
+S31.21XS,"Laceration without foreign body of penis, sequela"
+S31.22XA,"Laceration with foreign body of penis, initial encounter"
+S31.22XD,"Laceration with foreign body of penis, subsequent encounter"
+S31.22XS,"Laceration with foreign body of penis, sequela"
+S31.23XA,"Puncture wound without foreign body of penis, initial encounter"
+S31.23XD,"Puncture wound without foreign body of penis, subsequent encounter"
+S31.23XS,"Puncture wound without foreign body of penis, sequela"
+S31.24XA,"Puncture wound with foreign body of penis, initial encounter"
+S31.24XD,"Puncture wound with foreign body of penis, subsequent encounter"
+S31.24XS,"Puncture wound with foreign body of penis, sequela"
+S31.25XA,"Open bite of penis, initial encounter"
+S31.25XD,"Open bite of penis, subsequent encounter"
+S31.25XS,"Open bite of penis, sequela"
+S31.30XA,"Unspecified open wound of scrotum and testes, initial encounter"
+S31.30XD,"Unspecified open wound of scrotum and testes, subsequent encounter"
+S31.30XS,"Unspecified open wound of scrotum and testes, sequela"
+S31.31XA,"Laceration without foreign body of scrotum and testes, initial encounter"
+S31.31XD,"Laceration without foreign body of scrotum and testes, subsequent encounter"
+S31.31XS,"Laceration without foreign body of scrotum and testes, sequela"
+S31.32XA,"Laceration with foreign body of scrotum and testes, initial encounter"
+S31.32XD,"Laceration with foreign body of scrotum and testes, subsequent encounter"
+S31.32XS,"Laceration with foreign body of scrotum and testes, sequela"
+S31.33XA,"Puncture wound without foreign body of scrotum and testes, initial encounter"
+S31.33XD,"Puncture wound without foreign body of scrotum and testes, subsequent encounter"
+S31.33XS,"Puncture wound without foreign body of scrotum and testes, sequela"
+S31.34XA,"Puncture wound with foreign body of scrotum and testes, initial encounter"
+S31.34XD,"Puncture wound with foreign body of scrotum and testes, subsequent encounter"
+S31.34XS,"Puncture wound with foreign body of scrotum and testes, sequela"
+S31.35XA,"Open bite of scrotum and testes, initial encounter"
+S31.35XD,"Open bite of scrotum and testes, subsequent encounter"
+S31.35XS,"Open bite of scrotum and testes, sequela"
+S31.501A,"Unspecified open wound of unspecified external genital organs, male, initial encounter"
+S31.501D,"Unspecified open wound of unspecified external genital organs, male, subsequent encounter"
+S31.501S,"Unspecified open wound of unspecified external genital organs, male, sequela"
+S31.511A,"Laceration without foreign body of unspecified external genital organs, male, initial encounter"
+S31.511D,"Laceration without foreign body of unspecified external genital organs, male, subsequent encounter"
+S31.511S,"Laceration without foreign body of unspecified external genital organs, male, sequela"
+S31.521A,"Laceration with foreign body of unspecified external genital organs, male, initial encounter"
+S31.521D,"Laceration with foreign body of unspecified external genital organs, male, subsequent encounter"
+S31.521S,"Laceration with foreign body of unspecified external genital organs, male, sequela"
+S31.531A,"Puncture wound without foreign body of unspecified external genital organs, male, initial encounter"
+S31.531D,"Puncture wound without foreign body of unspecified external genital organs, male, subsequent encounter"
+S31.531S,"Puncture wound without foreign body of unspecified external genital organs, male, sequela"
+S31.541A,"Puncture wound with foreign body of unspecified external genital organs, male, initial encounter"
+S31.541D,"Puncture wound with foreign body of unspecified external genital organs, male, subsequent encounter"
+S31.541S,"Puncture wound with foreign body of unspecified external genital organs, male, sequela"
+S31.551A,"Open bite of unspecified external genital organs, male, initial encounter"
+S31.551D,"Open bite of unspecified external genital organs, male, subsequent encounter"
+S31.551S,"Open bite of unspecified external genital organs, male, sequela"
+S37.822A,"Contusion of prostate, initial encounter"
+S37.822D,"Contusion of prostate, subsequent encounter"
+S37.822S,"Contusion of prostate, sequela"
+S37.823A,"Laceration of prostate, initial encounter"
+S37.823D,"Laceration of prostate, subsequent encounter"
+S37.823S,"Laceration of prostate, sequela"
+S37.828A,"Other injury of prostate, initial encounter"
+S37.828D,"Other injury of prostate, subsequent encounter"
+S37.828S,"Other injury of prostate, sequela"
+S37.829A,"Unspecified injury of prostate, initial encounter"
+S37.829D,"Unspecified injury of prostate, subsequent encounter"
+S37.829S,"Unspecified injury of prostate, sequela"
+S38.001A,"Crushing injury of unspecified external genital organs, male, initial encounter"
+S38.001D,"Crushing injury of unspecified external genital organs, male, subsequent encounter"
+S38.001S,"Crushing injury of unspecified external genital organs, male, sequela"
+S38.01XA,"Crushing injury of penis, initial encounter"
+S38.01XD,"Crushing injury of penis, subsequent encounter"
+S38.01XS,"Crushing injury of penis, sequela"
+S38.02XA,"Crushing injury of scrotum and testis, initial encounter"
+S38.02XD,"Crushing injury of scrotum and testis, subsequent encounter"
+S38.02XS,"Crushing injury of scrotum and testis, sequela"
+S38.221A,"Complete traumatic amputation of penis, initial encounter"
+S38.221D,"Complete traumatic amputation of penis, subsequent encounter"
+S38.221S,"Complete traumatic amputation of penis, sequela"
+S38.222A,"Partial traumatic amputation of penis, initial encounter"
+S38.222D,"Partial traumatic amputation of penis, subsequent encounter"
+S38.222S,"Partial traumatic amputation of penis, sequela"
+S38.231A,"Complete traumatic amputation of scrotum and testis, initial encounter"
+S38.231D,"Complete traumatic amputation of scrotum and testis, subsequent encounter"
+S38.231S,"Complete traumatic amputation of scrotum and testis, sequela"
+S38.232A,"Partial traumatic amputation of scrotum and testis, initial encounter"
+S38.232D,"Partial traumatic amputation of scrotum and testis, subsequent encounter"
+S38.232S,"Partial traumatic amputation of scrotum and testis, sequela"
+S39.840A,"Fracture of corpus cavernosum penis, initial encounter"
+S39.840D,"Fracture of corpus cavernosum penis, subsequent encounter"
+S39.840S,"Fracture of corpus cavernosum penis, sequela"
+T19.4XXA,"Foreign body in penis, initial encounter"
+T19.4XXD,"Foreign body in penis, subsequent encounter"
+T19.4XXS,"Foreign body in penis, sequela"
+T21.06XA,"Burn of unspecified degree of male genital region, initial encounter"
+T21.06XD,"Burn of unspecified degree of male genital region, subsequent encounter"
+T21.06XS,"Burn of unspecified degree of male genital region, sequela"
+T21.16XA,"Burn of first degree of male genital region, initial encounter"
+T21.16XD,"Burn of first degree of male genital region, subsequent encounter"
+T21.16XS,"Burn of first degree of male genital region, sequela"
+T21.26XA,"Burn of second degree of male genital region, initial encounter"
+T21.26XD,"Burn of second degree of male genital region, subsequent encounter"
+T21.26XS,"Burn of second degree of male genital region, sequela"
+T21.36XA,"Burn of third degree of male genital region, initial encounter"
+T21.36XD,"Burn of third degree of male genital region, subsequent encounter"
+T21.36XS,"Burn of third degree of male genital region, sequela"
+T21.46XA,"Corrosion of unspecified degree of male genital region, initial encounter"
+T21.46XD,"Corrosion of unspecified degree of male genital region, subsequent encounter"
+T21.46XS,"Corrosion of unspecified degree of male genital region, sequela"
+T21.56XA,"Corrosion of first degree of male genital region, initial encounter"
+T21.56XD,"Corrosion of first degree of male genital region, subsequent encounter"
+T21.56XS,"Corrosion of first degree of male genital region, sequela"
+T21.66XA,"Corrosion of second degree of male genital region, initial encounter"
+T21.66XD,"Corrosion of second degree of male genital region, subsequent encounter"
+T21.66XS,"Corrosion of second degree of male genital region, sequela"
+T21.76XA,"Corrosion of third degree of male genital region, initial encounter"
+T21.76XD,"Corrosion of third degree of male genital region, subsequent encounter"
+T21.76XS,"Corrosion of third degree of male genital region, sequela"
+T83.410A,"Breakdown (mechanical) of implanted penile prosthesis, initial encounter"
+T83.410D,"Breakdown (mechanical) of implanted penile prosthesis, subsequent encounter"
+T83.410S,"Breakdown (mechanical) of implanted penile prosthesis, sequela"
+T83.420A,"Displacement of implanted penile prosthesis, initial encounter"
+T83.420D,"Displacement of implanted penile prosthesis, subsequent encounter"
+T83.420S,"Displacement of implanted penile prosthesis, sequela"
+T83.490A,"Other mechanical complication of implanted penile prosthesis, initial encounter"
+T83.490D,"Other mechanical complication of implanted penile prosthesis, subsequent encounter"
+T83.490S,"Other mechanical complication of implanted penile prosthesis, sequela"
+Z12.5,Encounter for screening for malignant neoplasm of prostate
+Z12.71,Encounter for screening for malignant neoplasm of testis
+Z15.03,Genetic susceptibility to malignant neoplasm of prostate
+Z31.440,Encounter of male for testing for genetic disease carrier status for procreative management
+Z31.441,Encounter for testing of male partner of patient with recurrent pregnancy loss
+Z31.448,Encounter for other genetic testing of male for procreative management
+Z41.2,Encounter for routine and ritual male circumcision
+Z85.45,Personal history of malignant neoplasm of unspecified male genital organ
+Z85.46,Personal history of malignant neoplasm of prostate
+Z85.47,Personal history of malignant neoplasm of testis
+Z85.48,Personal history of malignant neoplasm of epididymis
+Z85.49,Personal history of malignant neoplasm of other male genital organs
+Z87.430,Personal history of prostatic dysplasia
+Z87.438,Personal history of other diseases of male genital organs
+Z87.710,Personal history of (corrected) hypospadias
+Z98.52,Vasectomy status
