@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wedding Guest Registration</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f7f7f7;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .form-container {
+            background-color: white;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+            max-width: 400px;
+            width: 100%;
+        }
+        .form-container h1 {
+            text-align: center;
+            color: #d9534f;
+        }
+        .form-group {
+            margin-bottom: 15px;
+        }
+        .form-group label {
+            display: block;
+            margin-bottom: 5px;
+        }
+        .form-group input, .form-group select, .form-group textarea {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .submit-button {
+            display: block;
+            width: 100%;
+            padding: 10px;
+            background-color: #d9534f;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .submit-button:hover {
+            background-color: #c9302c;
+        }
+    </style>
+</head>
+<body>
+    <div class="form-container">
+        <h1>Guest Registration</h1>
+        <form id="guestForm">
+            <div class="form-group">
+                <label for="guestName">Name:</label>
+                <input type="text" id="guestName" name="guestName" required>
+            </div>
+            <div class="form-group">
+                <label for="guestAddress">Home Address:</label>
+                <input type="text" id="guestAddress" name="guestAddress" required>
+            </div>
+            <div class="form-group">
+                <label for="ceremonyParticipation">Will you attend the ceremony?</label>
+                <select id="ceremonyParticipation" name="ceremonyParticipation" required>
+                    <option value="Yes">Yes</option>
+                    <option value="No">No</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="lunchParticipation">Will you attend the lunch?</label>
+                <select id="lunchParticipation" name="lunchParticipation" required>
+                    <option value="Yes">Yes</option>
+                    <option value="No">No</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="guestComment">Comments:</label>
+                <textarea id="guestComment" name="guestComment" rows="4"></textarea>
+            </div>
+            <button type="button" class="submit-button" onclick="submitForm()">Submit</button>
+        </form>
+    </div>
+
+    <script>
+        function submitForm() {
+            const form = document.getElementById("guestForm");
+            const formData = new FormData(form);
+
+            const data = {
+                "guestName": formData.get("guestName"),
+                "guestAddress": formData.get("guestAddress"),
+                "ceremonyParticipation": formData.get("ceremonyParticipation"),
+                "lunchParticipation": formData.get("lunchParticipation"),
+                "guestComment": formData.get("guestComment")
+            };
+
+            fetch('https://script.google.com/macros/s/AKfycbwIxRMK-Hjv-14frwPt-3GgTIkIHSBYnip7yBiJueX0haWmvtIXj3IS5coF_TBPUF_5/exec', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                body: JSON.stringify(data),
+            })
+            .then(response => response.text())
+            .then(result => {
+                alert("Thank you for registering! We have received your information.");
+                form.reset();
+            })
+            .catch(error => {
+                console.error('Error:', error);
+                alert("There was an error submitting your form. Please try again.");
+            });
+        }
+    </script>
+</body>
+</html>
